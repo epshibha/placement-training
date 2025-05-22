@@ -1,0 +1,16 @@
+#include <stdio.h>
+void numbers(int x){
+    if(x==5)return ;
+    numbers(x-1);
+    printf("%d",x);
+}
+void numbersdec(int x){
+    if(x==0)return;
+    numbersdec(x-1);
+    printf("%d ",x);
+}
+int main(){
+    numbers(10);
+    printf("\n");
+    numbersdec(10);
+}
