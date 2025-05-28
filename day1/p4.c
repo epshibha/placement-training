@@ -1,4 +1,3 @@
-e <stdio.h>
 
 int main() {
     int num;
